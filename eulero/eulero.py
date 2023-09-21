@@ -12,7 +12,7 @@ def func(x, y):  # here you can define the explicit ODE
     return 0.5 * (1 - y ** 2) * np.cos(x)
 
 
-def f_esatta(x):  # if the solution of the EDO is known, it's possible to define it here
+def f_esatta(x):  # if the solution of the ODE is known, it's possible to define it here
     return (2 * np.exp(np.sin(x)) + 1) / (2 * np.exp(np.sin(x)) - 1)
 
 
