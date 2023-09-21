@@ -1,4 +1,4 @@
-#  This code uses Euler's method to show approximated solutions of Ordinary Diffferential Equations (ODEs).
+#  This code uses Euler's method to show approximated solutions of Ordinary Differential Equations (ODEs).
 #  in particular, it deals with initial value problems, sp it shows just a single solution of the ODE, connected to a
 #  particular Cauchy's problem.
 
