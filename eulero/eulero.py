@@ -25,9 +25,9 @@ def euler(x0, xf, y0, h):  # this functions applies Euler's method in the interv
         y_app[i + 1] = y_app[i] + h * func(x[i], y_app[i])  # Euler's method
 
     plt.figure(figsize=(12, 8))  # these next lines are purely graphic aspects.
-    plt.plot(x, y_app, '--ro', label='Approssimazione')
-    plt.plot(x, f_esatta(x), 'm', label='Soluzione esatta')  # if the real solution isn't known, comment this line
-    plt.title('Metodo di Eulero su una semplice EDO')
+    plt.plot(x, y_app, '--ro', label='Approximated solution')
+    plt.plot(x, f_esatta(x), 'm', label='Exact solution')  # if the real solution isn't known, comment this line
+    plt.title('Euler method on a simple ODE')
     plt.xlabel('x')
     plt.ylabel('f(x)')
     plt.grid()
